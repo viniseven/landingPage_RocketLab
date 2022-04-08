@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="msapplication-square70x70logo" content=".../icons8-javascript-70.png">
         <a href='https://br.freepik.com/fotos-vetores-gratis/desenho-animado'></a>
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/069fede7b4.js" crossorigin="anonymous"></script>
         <title>RocketLab</title>
     </head>
     <body>
@@ -14,10 +14,10 @@
            <div class="logo">RocketLab</div>
            <div class="menu">
                <ul>
-                   <li>Home</li>
-                   <li>Planos</li>
-                   <li>Sobre</li>
-                   <li>Contato</li>
+                   <li><a href="#home">Home</a></li>
+                   <li><a href="#plans">Planos</a></li>
+                   <li><a href="#about">Sobre</a></li>
+                   <li><a href="#contact">Contato</a></li>
                </ul>
            </div>
        </header>
@@ -88,8 +88,72 @@
                     <p>e muito mais...</p>
                 </div>
               </div>  
-               
-
        </section>
+
+       <section id="about">
+            <h1 id="title-about">Sobre</h1>
+
+            <div id="content-about">
+               <img src="./img/19199295.png" alt="">
+                
+                <div>
+                    <h1>Conectamos devs através da educação</h1>
+                    <p>Nossa missão é capacitar pessoas que buscam se profissionalizar
+                        na programação independente do seu momento ou nível de conhecimento</p>
+
+                    <p>Criamos um ambiente dedicado para que programadores e programadoras possam 
+                        se conectar com as oportunidades, estudar e crescer na carreira através 
+                        de uma jornada de aprendizado completa e contínua.</p>
+                        
+                    <h2>O que é a RocketLab?</h2>
+                    <p>
+                        Em um mundo onde a informação fica obsoleta cada vez mais rápido, velocidade 
+                        de aprendizado é a chave para o sucesso. O universo da programação é infinito 
+                        e a tecnologia não para de evoluir. Com ferramentas surgindo todos os dias o 
+                        excesso de informação tiram seu foco e atrasam a sua evolução. A Rocketseat 
+                        surgiu para ser um filtro para todas essas informações e te guiar indo direto 
+                        ao ponto no que importa. Somando tecnologias alinhadas com o mercado a uma 
+                        jornada completa de aprendizado.
+                    </p>
+                </div>           
+            </div>
+       </section>
+
+       <section id="contact">
+            <h1 id="title-contact">Contato</h1>
+
+            <div id="content-contact">
+                <div id="form-contact">
+                    <h2>Alguma dúvida? Entre em contato</h2>
+
+                    <form action="">
+                        <input type="email" placeholder="Insira seu Email" max="55">
+
+                        <textarea name="text-contact" id="" cols="60" rows="10" placeholder="Sua mensagem"></textarea>
+
+                        <button>Enviar</button>
+                    </form>
+                </div>
+
+                <div id="adress">
+                    <h2>Endereço</h2>
+
+                    <p>Residencial Acalanto - R. Guilherme Gemballa, 
+                    260 - 3 - Jardim América, Rio do Sul - SC, 89160-188</p>
+
+                    <h2>Horário</h2>
+
+                    <p>De Segunda a Sexta, das 8 às 18:00</p>
+
+                    <h2>Telefone</h2>
+
+                    <p>(47) 99207-8767</p>
+                </div>
+            </div>
+        </section>
+
+        <button><i class="fa-solid fa-arrow-up-long"></i></button>
+
+        
     </body>
 </html>
